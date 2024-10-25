@@ -109,7 +109,7 @@ catboost
 
 以下のグラフは、LightGBMモデルが重視した特徴量を**重要度の高い順に視覚化**したものです：
 
-![特徴量の重要度](./lightGBM_feature_importance.png =600x400)
+![特徴量の重要度](./lightGBM_feature_importance.png=600x400)
 
 
 ---
