@@ -107,8 +107,7 @@ catboost
 
 #### **特徴量の重要度の可視化**
 
-以下のグラフは、LightGBMモデルが重視した特徴量を**重要度の高い順に視覚化**したものです：
-![特徴量の重要度](./lightGBM_feature_importance.png)  
+以下のグラフは、LightGBMモデルが重視した特徴量を**重要度の高い順に視覚化**したものです：![特徴量の重要度](./lightGBM_feature_importance.png)  
 
 ---
 
@@ -119,15 +118,6 @@ catboost
 - **都道府県名**：地域ごとの不動産市場の違いも価格に反映されています。地域によって同じ間取りや広さでも価格に違いが生じます。
 - **最寄駅：名称**：駅に近い物件ほど価格が高い傾向があり、最寄駅も重要な特徴量となりました。
 - **地区名**：細かな地域ごとの違いもモデルに影響を与えます。
-
----
-
-
-#### **特徴量の重要度の可視化**
-
-以下のグラフは、catBoostモデルが重視した特徴量を**重要度の高い順に視覚化**したものです：
-![特徴量の重要度](./catboost_feature_importance.png)  
-
 
 ---
 
@@ -157,15 +147,13 @@ catboost
 
 ### 特徴量の重要度の可視化**
 
-以下のグラフは、**CatBoostモデルが重視した特徴量の重要度**を、重要度の高い順に視覚化したものです：
-![CatBoost 特徴量の重要度](./catboost_feature_importance.png)  
+以下のグラフは、**CatBoostモデルが重視した特徴量の重要度**を、重要度の高い順に視覚化したものです：![CatBoost 特徴量の重要度](./catboost_feature_importance.png)  
 
 ---
 
 ### 学習曲線の可視化（Learning Curve）**
 
-以下は、**学習の進捗と精度の向上**を示す学習曲線（Learning Curve）です：
-![CatBoost 学習曲線](./catboost_learning_curve.png)  
+以下は、**学習の進捗と精度の向上**を示す学習曲線（Learning Curve）です：![CatBoost 学習曲線](./catboost_learning_curve.png)  
 
 - **グラフの解説**：  
   - 学習曲線は、**トレーニングセットと検証セット**での誤差の変動を示しています。
