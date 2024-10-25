@@ -5,10 +5,10 @@ Nishika [Training] 中古マンション価格予測
 
 ## 📌 プロジェクトの概要（Introduction）  
 このプロジェクトは、国内の中古マンションの価格を予測することを目的としています。  
-使用されるデータは、Nishikaによって土地総合情報システムから収集・加工されたものです。
+使用したデータは、Nishikaによって土地総合情報システムから収集・加工されたものです。
 
 - **目的変数**：取引価格（総額）の常用対数「`取引価格（総額）_log`」  
-- **評価指標**：予測精度は**平均絶対誤差（MAE：Mean Absolute Error）**によって評価されます。
+- **評価指標**：予測精度は**平均絶対誤差（MAE：Mean Absolute Error）**で評価します。
 
 ---
 
@@ -87,7 +87,7 @@ catboost
 
 #### **[LightGBM] モデルの精度**
 - **MAE（Mean Absolute Error）**: `0.0803`  
-  この結果は、モデルが高い精度で価格を予測できていることを示しています。
+  モデルは比較的高い精度で価格を予測できています。
 
 ---
 
@@ -130,7 +130,7 @@ catboost
 
 ### [CatBoost] モデルの精度**
 - **MAE（Mean Absolute Error）**: `0.07895958437579434`  
-  → この結果は、**CatBoostモデルがLightGBMモデルよりも高い精度**で価格を予測できていることを示しています。
+  → 今回のトレーニングではCatBoostモデルがLightGBMモデルよりも、高い精度**で価格を予測しました。
 
 ---
 
@@ -177,9 +177,8 @@ catboost
 ---
 
 ### 著者情報（Author）**
-- **名前**：  
-- **メール**：your.email@example.com  
-- **GitHub**：[your-github-profile](https://github.com/your-github-profile)
+- **名前**：  capri7
+- **メール**：kazuehayakawa@gmail.com  
 
 ---
 
